@@ -1,0 +1,12 @@
+site_name: 3D Printed Clone Hero Controller
+repo_url: https://github.com/joshuaua/3Dprinted-CloneHero-Controller
+docs_dir: ./Documentation
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+    - Home: index.md
+    - "Build Guide": build-guide.md
