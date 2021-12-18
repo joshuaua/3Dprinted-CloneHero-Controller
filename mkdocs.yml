@@ -9,4 +9,4 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
     - Home: index.md
-    - "Build Guide": build-guide.md
+    - Supplies: supplies.md
