@@ -49,23 +49,37 @@ parts.
 ## Parts
 
 ### 3D Printer Filament
-- ~XXXg of PLA or PETG
-- (Optional) ~XXXg of ABS
+The entire build will use approximately 650g of PLA filament. Any solid filament
+will work, but PLA is easiest to print and is inexpensive.
 
-Small amount required for printing fret buttons if you want to smooth them with
-acetone.
+While not required, it's recommended to also print the fret buttons using ABS
+filament which allows you to smooth them with acetone. The only requires
+approximately 15g (4m) of filament.
+
+For the fret buttons to work well, it's critical that they're smoothed as much
+as possible, so they don't catch on the sides of the neck during use. Acetone
+smoothing gives the best possible finish and is much easier than sanding or
+painting.
+
+!!! warning
+    Printing with ABS produces toxic fumes! You need either a filtered
+    enclosure for your printer, or a large well ventilated space to print
+    safely.
 
 ### Mechanical Key Switches
-![Mechanical Switches](Images/KailhMechanicalSwitches.png)
+![Mechanical Switches](Images/KailhMechanicalSwitches.png){ width="300" }
 
 ### Wire
-Any thin light duty wire will work. Approx. 2 metres of stranded Cat 5e
+Any thin light duty wire will work. Approximately 2 metres of stranded Cat 5e
 (ethernet) cable will contain enough wire for the entire project with spare.
 Cat 6 and solid core cable will also work but is a little harder to work with.
 
 ### M3 Screws
+![M3 Screws](Images/M3Screws.png){ width="200" }
 
 ### M3 Hex Nuts
+![M3 Nuts](Images/M3Nuts.png){ width="200" }
+
 Adds strength to the build.
 
 ### Microcontroller
@@ -75,7 +89,7 @@ signals to your PC. Any microcontroller you pick must be able to act as a
 this project, but an Arduino Uno won't without additional hardware.
 
 #### Arcade USB Encoder
-![USB encoder](Images/USBEncoder.png)
+![USB encoder](Images/USBEncoder.png){ width="300" }
 
 These are very simple microcontrollers designed for DIY arcade machines. You
 plug buttons into it and it shows up as a joystick on your PC. While it is much
@@ -84,7 +98,7 @@ programmable LED strips. These devices vary a lot in look and manufacturer but
 they all work the same.
 
 #### Arduino Pro Micro
-![Arduino Pro Micro](Images/ArduinoProMicro.png)
+![Arduino Pro Micro](Images/ArduinoProMicro.png){ width="300" }
 
 This is the more complex option but allows customisation with things like LED
 strips.
