@@ -1,4 +1,4 @@
-site_name: 3D Printed Clone Hero Controller
+site_name: DIY Clone Hero Controller
 repo_url: https://github.com/joshuaua/3Dprinted-CloneHero-Controller
 docs_dir: ./Documentation
 theme:
@@ -12,3 +12,5 @@ markdown_extensions:
 nav:
     - Home: index.md
     - Supplies: supplies.md
+    - "Build Guides":
+        - "Simple Les Paul": simple-les-paul.md
